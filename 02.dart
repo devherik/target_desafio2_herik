@@ -3,7 +3,6 @@ import 'dart:io';
 void main(List<String> args) {
   // 2) Escreva um programa que verifique, em uma string, a existência da letra ‘a’,
   // seja maiúscula ou minúscula, além de informar a quantidade de vezes em que ela ocorre.
-
   contemLetraA() {
     String value = '';
     int count = 0;
@@ -19,7 +18,7 @@ void main(List<String> args) {
     }
     count > 0
         ? print('A letra "A" apareceu $count na frase informada')
-        : print('Não contém a letra "A" na frase infromada');
+        : print('Não contém a letra "A" na frase informada');
   }
 
   contemLetraA();
